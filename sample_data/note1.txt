@@ -1,0 +1,3 @@
+Project X is a web application. Alice works on Project X. 
+The system uses Python and FastAPI. Project X creates APIs for data processing.
+Alice writes documentation for the project. The application has authentication features.

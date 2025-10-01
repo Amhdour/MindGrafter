@@ -1,0 +1,123 @@
+Project name: Personal Knowledge Graph Construction Agent (Replit Free)
+
+Short summary:
+You are an autonomous developer agent building a low-resource Personal Knowledge Graph (PKG) system runnable on Replit Free. Ingest user notes and small web pages. Extract entities and relations. Deduplicate and link into a small RDF graph. Provide a simple semantic-query API and minimal UI. Prioritize small dependencies, no heavy native libraries, and local persistence.
+
+Must-haves (Replit Free constraints):
+1. Ingest plain text files and small Markdown notes via POST /ingest (multipart).
+2. Lightweight extraction: rule-based + simple regex + sentence splitting. No heavy transformer downloads.
+3. Persist graph with RDFLib (Turtle file) in project `data/`.
+4. Semantic search via OpenAI embeddings if `OPENAI_API_KEY` set; else local TF-IDF fallback.
+5. API endpoints: POST /ingest, GET /jobs/{id}, POST /query, GET /entity/{id}.
+6. Return provenance (source file, snippet, offsets) for each triple and for query answers.
+7. Minimal single-page UI or simple HTML endpoints to run queries and view entities.
+8. Replit-run: single-process FastAPI. No background services.
+
+Acceptance criteria:
+- Ingest at least 3 small files and produce ≥10 triples.
+- POST /ingest returns job id and status.
+- POST /query returns top-k answers with provenance snippets.
+- Graph persists across restarts in data/graph.ttl.
+
+Tech choices (Replit Free):
+- Python 3.11+, FastAPI, Uvicorn.
+- RDF store: rdflib (turtle).
+- Embeddings: OpenAI text-embedding-3-small when `OPENAI_API_KEY` present; else sklearn TfidfVectorizer.
+- Vector storage: numpy arrays persisted to disk as .npy.
+- No FAISS, no Chroma, no heavy transformers.
+- Frontend: single static HTML page + minimal JS or simple React if kept tiny.
+
+Repo layout (create these files):
+README.md
+.replit
+requirements.txt
+src/
+  main.py                # FastAPI app
+  api_routes.py          # router with /ingest, /query, /entity
+  ingest.py              # chunker + simple extractor + ingestion job
+  graph_store.py         # rdflib wrapper, provenance support
+  embeddings.py          # OpenAI + TF-IDF wrapper, persist vectors
+  ui.py                  # serve minimal UI or static files
+data/                    # persisted graph and vectors
+sample_data/             # small notes for tests
+tests/                   # pytest tests
+
+Minimal run command (.replit):
+run = "bash -lc 'pip install -r requirements.txt && uvicorn src.main:app --host=0.0.0.0 --port=3000 --reload'"
+
+Minimal requirements.txt (Replit Free friendly):
+fastapi
+uvicorn[standard]
+rdflib
+numpy
+scikit-learn
+python-multipart
+httpx
+openai
+
+Environment variables (Replit secrets):
+- OPENAI_API_KEY (optional for better semantic search)
+- SECRET_KEY (optional, for any session tokens)
+
+API contract (examples):
+POST /ingest
+  body: multipart files
+  returns: { "job_id": "uuid", "status": "queued" }
+
+GET /jobs/{job_id}
+  returns: { "status": "done", "triples": 12 }
+
+POST /query
+  body: { "q": "What did I write about Project X?", "top_k": 5 }
+  returns: {
+    "answer": "Concise summary...",
+    "results": [
+      { "text": "...", "source": "note1.md", "snippet": "...", "score": 0.91 }
+    ]
+  }
+
+GET /entity/{id}
+  returns: { "entity": "Project X", "aliases": [...], "relations": [...], "sources": [...] }
+
+Ingestion & extraction rules (practical defaults):
+- Chunk size: 200–400 tokens with small overlap.
+- Sentence split by punctuation.
+- Rule examples:
+  • "X is Y" -> (X, relatedTo, Y)
+  • Capitalized Phrase + verb + Capitalized/Object -> capture candidate triples
+- Store triple format: (subject_id, predicate, object_literal, confidence, provenance{source, snippet, start, end})
+
+Indexing & canonicalization:
+- Alias table: simple normalized string -> canonical id mapping.
+- Dedupe by normalized token-sort ratio + embedding cosine if embeddings available.
+- Persist alias table to JSON.
+
+Provenance:
+- Every triple stores source file name and exact sentence snippet.
+- Query results must include snippet and source.
+
+Testing:
+- Unit tests for ingestion -> triples count and provenance.
+- Integration test: ingest sample_data, run query, assert expected top result.
+
+Security & privacy notes:
+- Do not log raw API keys.
+- Respect secret store in Replit.
+- Provide opt-out flag to disable external embeddings (use TF-IDF only).
+
+Developer tasks (suggested milestones):
+M1 (quick): FastAPI skeleton, RDFLib store, simple regex extractor, TF-IDF index, POST /ingest, POST /query.
+M2: OpenAI embedding option, improved dedupe, alias table, persist vectors.
+M3: Minimal UI, entity view, provenance display, basic tests.
+M4 (optional): Dockerfile, export/import graph, manual merge UI.
+
+Copy-paste instructions for Replit:
+1. Create new Replit Python project.
+2. Add files exactly as repo layout above.
+3. Set `OPENAI_API_KEY` in Secrets if available.
+4. Press Run.
+
+Developer note for the agent:
+Keep modules tiny and testable. Fail fast on large uploads. Default to conservative privacy. Offer clear README with example curl commands and sample_data for immediate validation.
+
+End of prompt.

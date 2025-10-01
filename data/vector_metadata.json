@@ -1,0 +1,1102 @@
+[
+  {
+    "text": "Alice worksOn Project. Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+    "triple_key": "Alice:worksOn:Project",
+    "provenance": {
+      "source": "note1.txt",
+      "snippet": "Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+      "start": 32,
+      "end": 54
+    }
+  },
+  {
+    "text": "Research Notes Bob isA researcher. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+    "triple_key": "Research Notes Bob:isA:researcher",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+      "start": 2,
+      "end": 36
+    }
+  },
+  {
+    "text": "Deep Learning isA subset of artificial intelligence. searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+    "triple_key": "Deep Learning:isA:subset of artificial intelligence",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+      "start": 78,
+      "end": 130
+    }
+  },
+  {
+    "text": "Bob worksOn Machine Learning. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+    "triple_key": "Bob:worksOn:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+      "start": 38,
+      "end": 69
+    }
+  },
+  {
+    "text": "Research Notes Bob mentionedWith Machine Learning. # Research Notes Bob is a researcher. Bob works wi",
+    "triple_key": "Research Notes Bob:mentionedWith:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works wi",
+      "start": 2,
+      "end": 20
+    }
+  },
+  {
+    "text": "Machine Learning mentionedWith Deep Learning.  a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+    "triple_key": "Machine Learning:mentionedWith:Deep Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": " a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+      "start": 53,
+      "end": 69
+    }
+  },
+  {
+    "text": "Deep Learning mentionedWith Neural Networks. with Machine Learning models. Deep Learning is a subset of artificial int",
+    "triple_key": "Deep Learning:mentionedWith:Neural Networks",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "with Machine Learning models. Deep Learning is a subset of artificial int",
+      "start": 78,
+      "end": 91
+    }
+  },
+  {
+    "text": "Neural Networks mentionedWith The Research Team. t of artificial intelligence. Neural Networks are fundamental components. T",
+    "triple_key": "Neural Networks:mentionedWith:The Research Team",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "t of artificial intelligence. Neural Networks are fundamental components. T",
+      "start": 132,
+      "end": 147
+    }
+  },
+  {
+    "text": "The Research Team mentionedWith Innovation Lab. s are fundamental components. The Research Team develops new algorithms. Inno",
+    "triple_key": "The Research Team:mentionedWith:Innovation Lab",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "s are fundamental components. The Research Team develops new algorithms. Inno",
+      "start": 176,
+      "end": 193
+    }
+  },
+  {
+    "text": "Enterprise Solutions has reliability requirements. . Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+    "triple_key": "Enterprise Solutions:has:reliability requirements",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": ". Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+      "start": 173,
+      "end": 222
+    }
+  },
+  {
+    "text": "Knowledge Graphs mentionedWith Data Science. Knowledge Graphs are powerful tools. Data Scie",
+    "triple_key": "Knowledge Graphs:mentionedWith:Data Science",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "Knowledge Graphs are powerful tools. Data Scie",
+      "start": 0,
+      "end": 16
+    }
+  },
+  {
+    "text": "Data Science mentionedWith The Company. ge Graphs are powerful tools. Data Science relates to analytics and insi",
+    "triple_key": "Data Science:mentionedWith:The Company",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "ge Graphs are powerful tools. Data Science relates to analytics and insi",
+      "start": 37,
+      "end": 49
+    }
+  },
+  {
+    "text": "The Company mentionedWith Cloud Infrastructure. es to analytics and insights. The Company builds enterprise software. C",
+    "triple_key": "The Company:mentionedWith:Cloud Infrastructure",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "es to analytics and insights. The Company builds enterprise software. C",
+      "start": 85,
+      "end": 96
+    }
+  },
+  {
+    "text": "Cloud Infrastructure mentionedWith Enterprise Solutions. y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+    "triple_key": "Cloud Infrastructure:mentionedWith:Enterprise Solutions",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+      "start": 125,
+      "end": 145
+    }
+  },
+  {
+    "text": "Enterprise Solutions mentionedWith Performance Optimization. re supports scalable systems. Enterprise Solutions has reliability requirements.",
+    "triple_key": "Enterprise Solutions:mentionedWith:Performance Optimization",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "re supports scalable systems. Enterprise Solutions has reliability requirements.",
+      "start": 173,
+      "end": 193
+    }
+  },
+  {
+    "text": "Performance Optimization mentionedWith Development Team. has reliability requirements. Performance Optimization is critical for success. Deve",
+    "triple_key": "Performance Optimization:mentionedWith:Development Team",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "has reliability requirements. Performance Optimization is critical for success. Deve",
+      "start": 224,
+      "end": 248
+    }
+  },
+  {
+    "text": "Alice worksOn Project. Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+    "triple_key": "Alice:worksOn:Project",
+    "provenance": {
+      "source": "note1.txt",
+      "snippet": "Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+      "start": 32,
+      "end": 54
+    }
+  },
+  {
+    "text": "Research Notes Bob isA researcher. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+    "triple_key": "Research Notes Bob:isA:researcher",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+      "start": 2,
+      "end": 36
+    }
+  },
+  {
+    "text": "Deep Learning isA subset of artificial intelligence. searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+    "triple_key": "Deep Learning:isA:subset of artificial intelligence",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+      "start": 78,
+      "end": 130
+    }
+  },
+  {
+    "text": "Bob worksOn Machine Learning. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+    "triple_key": "Bob:worksOn:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+      "start": 38,
+      "end": 69
+    }
+  },
+  {
+    "text": "Research Notes Bob mentionedWith Machine Learning. # Research Notes Bob is a researcher. Bob works wi",
+    "triple_key": "Research Notes Bob:mentionedWith:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works wi",
+      "start": 2,
+      "end": 20
+    }
+  },
+  {
+    "text": "Machine Learning mentionedWith Deep Learning.  a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+    "triple_key": "Machine Learning:mentionedWith:Deep Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": " a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+      "start": 53,
+      "end": 69
+    }
+  },
+  {
+    "text": "Deep Learning mentionedWith Neural Networks. with Machine Learning models. Deep Learning is a subset of artificial int",
+    "triple_key": "Deep Learning:mentionedWith:Neural Networks",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "with Machine Learning models. Deep Learning is a subset of artificial int",
+      "start": 78,
+      "end": 91
+    }
+  },
+  {
+    "text": "Neural Networks mentionedWith The Research Team. t of artificial intelligence. Neural Networks are fundamental components. T",
+    "triple_key": "Neural Networks:mentionedWith:The Research Team",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "t of artificial intelligence. Neural Networks are fundamental components. T",
+      "start": 132,
+      "end": 147
+    }
+  },
+  {
+    "text": "The Research Team mentionedWith Innovation Lab. s are fundamental components. The Research Team develops new algorithms. Inno",
+    "triple_key": "The Research Team:mentionedWith:Innovation Lab",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "s are fundamental components. The Research Team develops new algorithms. Inno",
+      "start": 176,
+      "end": 193
+    }
+  },
+  {
+    "text": "Enterprise Solutions has reliability requirements. . Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+    "triple_key": "Enterprise Solutions:has:reliability requirements",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": ". Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+      "start": 173,
+      "end": 222
+    }
+  },
+  {
+    "text": "Knowledge Graphs mentionedWith Data Science. Knowledge Graphs are powerful tools. Data Scie",
+    "triple_key": "Knowledge Graphs:mentionedWith:Data Science",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "Knowledge Graphs are powerful tools. Data Scie",
+      "start": 0,
+      "end": 16
+    }
+  },
+  {
+    "text": "Data Science mentionedWith The Company. ge Graphs are powerful tools. Data Science relates to analytics and insi",
+    "triple_key": "Data Science:mentionedWith:The Company",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "ge Graphs are powerful tools. Data Science relates to analytics and insi",
+      "start": 37,
+      "end": 49
+    }
+  },
+  {
+    "text": "The Company mentionedWith Cloud Infrastructure. es to analytics and insights. The Company builds enterprise software. C",
+    "triple_key": "The Company:mentionedWith:Cloud Infrastructure",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "es to analytics and insights. The Company builds enterprise software. C",
+      "start": 85,
+      "end": 96
+    }
+  },
+  {
+    "text": "Cloud Infrastructure mentionedWith Enterprise Solutions. y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+    "triple_key": "Cloud Infrastructure:mentionedWith:Enterprise Solutions",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+      "start": 125,
+      "end": 145
+    }
+  },
+  {
+    "text": "Enterprise Solutions mentionedWith Performance Optimization. re supports scalable systems. Enterprise Solutions has reliability requirements.",
+    "triple_key": "Enterprise Solutions:mentionedWith:Performance Optimization",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "re supports scalable systems. Enterprise Solutions has reliability requirements.",
+      "start": 173,
+      "end": 193
+    }
+  },
+  {
+    "text": "Performance Optimization mentionedWith Development Team. has reliability requirements. Performance Optimization is critical for success. Deve",
+    "triple_key": "Performance Optimization:mentionedWith:Development Team",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "has reliability requirements. Performance Optimization is critical for success. Deve",
+      "start": 224,
+      "end": 248
+    }
+  },
+  {
+    "text": "The Framework has good documentation. Testing System creates reliable software. The Framework has good documentation.",
+    "triple_key": "The Framework:has:good documentation",
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. The Framework has good documentation.",
+      "start": 42,
+      "end": 78
+    }
+  },
+  {
+    "text": "Testing System mentionedWith The Framework. Testing System creates reliable software. Th",
+    "triple_key": "Testing System:mentionedWith:The Framework",
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. Th",
+      "start": 0,
+      "end": 14
+    }
+  },
+  {
+    "text": "Alice worksOn Project. Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+    "triple_key": "Alice:worksOn:Project",
+    "provenance": {
+      "source": "note1.txt",
+      "snippet": "Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+      "start": 32,
+      "end": 54
+    }
+  },
+  {
+    "text": "Research Notes Bob isA researcher. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+    "triple_key": "Research Notes Bob:isA:researcher",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+      "start": 2,
+      "end": 36
+    }
+  },
+  {
+    "text": "Deep Learning isA subset of artificial intelligence. searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+    "triple_key": "Deep Learning:isA:subset of artificial intelligence",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+      "start": 78,
+      "end": 130
+    }
+  },
+  {
+    "text": "Bob worksOn Machine Learning. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+    "triple_key": "Bob:worksOn:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+      "start": 38,
+      "end": 69
+    }
+  },
+  {
+    "text": "Research Notes Bob mentionedWith Machine Learning. # Research Notes Bob is a researcher. Bob works wi",
+    "triple_key": "Research Notes Bob:mentionedWith:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works wi",
+      "start": 2,
+      "end": 20
+    }
+  },
+  {
+    "text": "Machine Learning mentionedWith Deep Learning.  a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+    "triple_key": "Machine Learning:mentionedWith:Deep Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": " a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+      "start": 53,
+      "end": 69
+    }
+  },
+  {
+    "text": "Deep Learning mentionedWith Neural Networks. with Machine Learning models. Deep Learning is a subset of artificial int",
+    "triple_key": "Deep Learning:mentionedWith:Neural Networks",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "with Machine Learning models. Deep Learning is a subset of artificial int",
+      "start": 78,
+      "end": 91
+    }
+  },
+  {
+    "text": "Neural Networks mentionedWith The Research Team. t of artificial intelligence. Neural Networks are fundamental components. T",
+    "triple_key": "Neural Networks:mentionedWith:The Research Team",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "t of artificial intelligence. Neural Networks are fundamental components. T",
+      "start": 132,
+      "end": 147
+    }
+  },
+  {
+    "text": "The Research Team mentionedWith Innovation Lab. s are fundamental components. The Research Team develops new algorithms. Inno",
+    "triple_key": "The Research Team:mentionedWith:Innovation Lab",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "s are fundamental components. The Research Team develops new algorithms. Inno",
+      "start": 176,
+      "end": 193
+    }
+  },
+  {
+    "text": "Enterprise Solutions has reliability requirements. . Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+    "triple_key": "Enterprise Solutions:has:reliability requirements",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": ". Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+      "start": 173,
+      "end": 222
+    }
+  },
+  {
+    "text": "Knowledge Graphs mentionedWith Data Science. Knowledge Graphs are powerful tools. Data Scie",
+    "triple_key": "Knowledge Graphs:mentionedWith:Data Science",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "Knowledge Graphs are powerful tools. Data Scie",
+      "start": 0,
+      "end": 16
+    }
+  },
+  {
+    "text": "Data Science mentionedWith The Company. ge Graphs are powerful tools. Data Science relates to analytics and insi",
+    "triple_key": "Data Science:mentionedWith:The Company",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "ge Graphs are powerful tools. Data Science relates to analytics and insi",
+      "start": 37,
+      "end": 49
+    }
+  },
+  {
+    "text": "The Company mentionedWith Cloud Infrastructure. es to analytics and insights. The Company builds enterprise software. C",
+    "triple_key": "The Company:mentionedWith:Cloud Infrastructure",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "es to analytics and insights. The Company builds enterprise software. C",
+      "start": 85,
+      "end": 96
+    }
+  },
+  {
+    "text": "Cloud Infrastructure mentionedWith Enterprise Solutions. y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+    "triple_key": "Cloud Infrastructure:mentionedWith:Enterprise Solutions",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+      "start": 125,
+      "end": 145
+    }
+  },
+  {
+    "text": "Enterprise Solutions mentionedWith Performance Optimization. re supports scalable systems. Enterprise Solutions has reliability requirements.",
+    "triple_key": "Enterprise Solutions:mentionedWith:Performance Optimization",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "re supports scalable systems. Enterprise Solutions has reliability requirements.",
+      "start": 173,
+      "end": 193
+    }
+  },
+  {
+    "text": "Performance Optimization mentionedWith Development Team. has reliability requirements. Performance Optimization is critical for success. Deve",
+    "triple_key": "Performance Optimization:mentionedWith:Development Team",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "has reliability requirements. Performance Optimization is critical for success. Deve",
+      "start": 224,
+      "end": 248
+    }
+  },
+  {
+    "text": "The Framework has good documentation. Testing System creates reliable software. The Framework has good documentation.",
+    "triple_key": "The Framework:has:good documentation",
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. The Framework has good documentation.",
+      "start": 42,
+      "end": 78
+    }
+  },
+  {
+    "text": "Testing System mentionedWith The Framework. Testing System creates reliable software. Th",
+    "triple_key": "Testing System:mentionedWith:The Framework",
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. Th",
+      "start": 0,
+      "end": 14
+    }
+  },
+  {
+    "text": "Mobile Apps uses React Native. David creates Mobile Apps. Mobile Apps use React Native. The Development Team builds innovative solutions",
+    "triple_key": "Mobile Apps:uses:React Native",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Development Team builds innovative solutions",
+      "start": 27,
+      "end": 55
+    }
+  },
+  {
+    "text": "David creates Mobile Apps. David creates Mobile Apps. Mobile Apps use React Native. The Development Te",
+    "triple_key": "David:creates:Mobile Apps",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Development Te",
+      "start": 0,
+      "end": 25
+    }
+  },
+  {
+    "text": "Mobile Apps mentionedWith React Native. David creates Mobile Apps. Mobile Apps use React Native. The Develop",
+    "triple_key": "Mobile Apps:mentionedWith:React Native",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Develop",
+      "start": 27,
+      "end": 38
+    }
+  },
+  {
+    "text": "React Native mentionedWith The Development Team.  Mobile Apps. Mobile Apps use React Native. The Development Team builds ",
+    "triple_key": "React Native:mentionedWith:The Development Team",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": " Mobile Apps. Mobile Apps use React Native. The Development Team builds ",
+      "start": 43,
+      "end": 55
+    }
+  },
+  {
+    "text": "Alice worksOn Project. Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+    "triple_key": "Alice:worksOn:Project",
+    "provenance": {
+      "source": "note1.txt",
+      "snippet": "Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+      "start": 32,
+      "end": 54
+    }
+  },
+  {
+    "text": "Research Notes Bob isA researcher. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+    "triple_key": "Research Notes Bob:isA:researcher",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+      "start": 2,
+      "end": 36
+    }
+  },
+  {
+    "text": "Deep Learning isA subset of artificial intelligence. searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+    "triple_key": "Deep Learning:isA:subset of artificial intelligence",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+      "start": 78,
+      "end": 130
+    }
+  },
+  {
+    "text": "Bob worksOn Machine Learning. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+    "triple_key": "Bob:worksOn:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+      "start": 38,
+      "end": 69
+    }
+  },
+  {
+    "text": "Research Notes Bob mentionedWith Machine Learning. # Research Notes Bob is a researcher. Bob works wi",
+    "triple_key": "Research Notes Bob:mentionedWith:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works wi",
+      "start": 2,
+      "end": 20
+    }
+  },
+  {
+    "text": "Machine Learning mentionedWith Deep Learning.  a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+    "triple_key": "Machine Learning:mentionedWith:Deep Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": " a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+      "start": 53,
+      "end": 69
+    }
+  },
+  {
+    "text": "Deep Learning mentionedWith Neural Networks. with Machine Learning models. Deep Learning is a subset of artificial int",
+    "triple_key": "Deep Learning:mentionedWith:Neural Networks",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "with Machine Learning models. Deep Learning is a subset of artificial int",
+      "start": 78,
+      "end": 91
+    }
+  },
+  {
+    "text": "Neural Networks mentionedWith The Research Team. t of artificial intelligence. Neural Networks are fundamental components. T",
+    "triple_key": "Neural Networks:mentionedWith:The Research Team",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "t of artificial intelligence. Neural Networks are fundamental components. T",
+      "start": 132,
+      "end": 147
+    }
+  },
+  {
+    "text": "The Research Team mentionedWith Innovation Lab. s are fundamental components. The Research Team develops new algorithms. Inno",
+    "triple_key": "The Research Team:mentionedWith:Innovation Lab",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "s are fundamental components. The Research Team develops new algorithms. Inno",
+      "start": 176,
+      "end": 193
+    }
+  },
+  {
+    "text": "Enterprise Solutions has reliability requirements. . Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+    "triple_key": "Enterprise Solutions:has:reliability requirements",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": ". Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+      "start": 173,
+      "end": 222
+    }
+  },
+  {
+    "text": "Knowledge Graphs mentionedWith Data Science. Knowledge Graphs are powerful tools. Data Scie",
+    "triple_key": "Knowledge Graphs:mentionedWith:Data Science",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "Knowledge Graphs are powerful tools. Data Scie",
+      "start": 0,
+      "end": 16
+    }
+  },
+  {
+    "text": "Data Science mentionedWith The Company. ge Graphs are powerful tools. Data Science relates to analytics and insi",
+    "triple_key": "Data Science:mentionedWith:The Company",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "ge Graphs are powerful tools. Data Science relates to analytics and insi",
+      "start": 37,
+      "end": 49
+    }
+  },
+  {
+    "text": "The Company mentionedWith Cloud Infrastructure. es to analytics and insights. The Company builds enterprise software. C",
+    "triple_key": "The Company:mentionedWith:Cloud Infrastructure",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "es to analytics and insights. The Company builds enterprise software. C",
+      "start": 85,
+      "end": 96
+    }
+  },
+  {
+    "text": "Cloud Infrastructure mentionedWith Enterprise Solutions. y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+    "triple_key": "Cloud Infrastructure:mentionedWith:Enterprise Solutions",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+      "start": 125,
+      "end": 145
+    }
+  },
+  {
+    "text": "Enterprise Solutions mentionedWith Performance Optimization. re supports scalable systems. Enterprise Solutions has reliability requirements.",
+    "triple_key": "Enterprise Solutions:mentionedWith:Performance Optimization",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "re supports scalable systems. Enterprise Solutions has reliability requirements.",
+      "start": 173,
+      "end": 193
+    }
+  },
+  {
+    "text": "Performance Optimization mentionedWith Development Team. has reliability requirements. Performance Optimization is critical for success. Deve",
+    "triple_key": "Performance Optimization:mentionedWith:Development Team",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "has reliability requirements. Performance Optimization is critical for success. Deve",
+      "start": 224,
+      "end": 248
+    }
+  },
+  {
+    "text": "The Framework has good documentation. Testing System creates reliable software. The Framework has good documentation.",
+    "triple_key": "The Framework:has:good documentation",
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. The Framework has good documentation.",
+      "start": 42,
+      "end": 78
+    }
+  },
+  {
+    "text": "Testing System mentionedWith The Framework. Testing System creates reliable software. Th",
+    "triple_key": "Testing System:mentionedWith:The Framework",
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. Th",
+      "start": 0,
+      "end": 14
+    }
+  },
+  {
+    "text": "Mobile Apps uses React Native. David creates Mobile Apps. Mobile Apps use React Native. The Development Team builds innovative solutions",
+    "triple_key": "Mobile Apps:uses:React Native",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Development Team builds innovative solutions",
+      "start": 27,
+      "end": 55
+    }
+  },
+  {
+    "text": "David creates Mobile Apps. David creates Mobile Apps. Mobile Apps use React Native. The Development Te",
+    "triple_key": "David:creates:Mobile Apps",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Development Te",
+      "start": 0,
+      "end": 25
+    }
+  },
+  {
+    "text": "Mobile Apps mentionedWith React Native. David creates Mobile Apps. Mobile Apps use React Native. The Develop",
+    "triple_key": "Mobile Apps:mentionedWith:React Native",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Develop",
+      "start": 27,
+      "end": 38
+    }
+  },
+  {
+    "text": "React Native mentionedWith The Development Team.  Mobile Apps. Mobile Apps use React Native. The Development Team builds ",
+    "triple_key": "React Native:mentionedWith:The Development Team",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": " Mobile Apps. Mobile Apps use React Native. The Development Team builds ",
+      "start": 43,
+      "end": 55
+    }
+  },
+  {
+    "text": "The Iranian mentionedWith International Atomic Energy Agency. to deport about 400 Iranians. The Iranian flag waves in front of the In",
+    "triple_key": "The Iranian:mentionedWith:International Atomic Energy Agency",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "to deport about 400 Iranians. The Iranian flag waves in front of the In",
+      "start": 171,
+      "end": 182
+    }
+  },
+  {
+    "text": "Lisi Niesner mentionedWith An Iranian.  next one or two days' [File: Lisi Niesner/Reuters] An Iranian official ",
+    "triple_key": "Lisi Niesner:mentionedWith:An Iranian",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": " next one or two days' [File: Lisi Niesner/Reuters] An Iranian official ",
+      "start": 447,
+      "end": 459
+    }
+  },
+  {
+    "text": "An Iranian mentionedWith United States.  [File: Lisi Niesner/Reuters] An Iranian official says the United Stat",
+    "triple_key": "An Iranian:mentionedWith:United States",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": " [File: Lisi Niesner/Reuters] An Iranian official says the United Stat",
+      "start": 469,
+      "end": 479
+    }
+  },
+  {
+    "text": "President Donald Trump mentionedWith Hossein Noushabadi. ve in Iran within days, as US President Donald Trump continues his immigration cra",
+    "triple_key": "President Donald Trump:mentionedWith:Hossein Noushabadi",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "ve in Iran within days, as US President Donald Trump continues his immigration cra",
+      "start": 653,
+      "end": 675
+    }
+  },
+  {
+    "text": "Trump has set out to deport a record number of people living in the. or comment. Since returning to office in January, Trump has set out to deport a record number of people living in the US. However, his administration has struggled to ",
+    "triple_key": "Trump:has:set out to deport a record number of people living in the",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "or comment. Since returning to office in January, Trump has set out to deport a record number of people living in the US. However, his administration has struggled to ",
+      "start": 912,
+      "end": 979
+    }
+  },
+  {
+    "text": "Alice worksOn Project. Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+    "triple_key": "Alice:worksOn:Project",
+    "provenance": {
+      "source": "note1.txt",
+      "snippet": "Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+      "start": 32,
+      "end": 54
+    }
+  },
+  {
+    "text": "Research Notes Bob isA researcher. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+    "triple_key": "Research Notes Bob:isA:researcher",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+      "start": 2,
+      "end": 36
+    }
+  },
+  {
+    "text": "Deep Learning isA subset of artificial intelligence. searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+    "triple_key": "Deep Learning:isA:subset of artificial intelligence",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+      "start": 78,
+      "end": 130
+    }
+  },
+  {
+    "text": "Bob worksOn Machine Learning. # Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+    "triple_key": "Bob:worksOn:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+      "start": 38,
+      "end": 69
+    }
+  },
+  {
+    "text": "Research Notes Bob mentionedWith Machine Learning. # Research Notes Bob is a researcher. Bob works wi",
+    "triple_key": "Research Notes Bob:mentionedWith:Machine Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works wi",
+      "start": 2,
+      "end": 20
+    }
+  },
+  {
+    "text": "Machine Learning mentionedWith Deep Learning.  a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+    "triple_key": "Machine Learning:mentionedWith:Deep Learning",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": " a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+      "start": 53,
+      "end": 69
+    }
+  },
+  {
+    "text": "Deep Learning mentionedWith Neural Networks. with Machine Learning models. Deep Learning is a subset of artificial int",
+    "triple_key": "Deep Learning:mentionedWith:Neural Networks",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "with Machine Learning models. Deep Learning is a subset of artificial int",
+      "start": 78,
+      "end": 91
+    }
+  },
+  {
+    "text": "Neural Networks mentionedWith The Research Team. t of artificial intelligence. Neural Networks are fundamental components. T",
+    "triple_key": "Neural Networks:mentionedWith:The Research Team",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "t of artificial intelligence. Neural Networks are fundamental components. T",
+      "start": 132,
+      "end": 147
+    }
+  },
+  {
+    "text": "The Research Team mentionedWith Innovation Lab. s are fundamental components. The Research Team develops new algorithms. Inno",
+    "triple_key": "The Research Team:mentionedWith:Innovation Lab",
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "s are fundamental components. The Research Team develops new algorithms. Inno",
+      "start": 176,
+      "end": 193
+    }
+  },
+  {
+    "text": "Enterprise Solutions has reliability requirements. . Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+    "triple_key": "Enterprise Solutions:has:reliability requirements",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": ". Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+      "start": 173,
+      "end": 222
+    }
+  },
+  {
+    "text": "Knowledge Graphs mentionedWith Data Science. Knowledge Graphs are powerful tools. Data Scie",
+    "triple_key": "Knowledge Graphs:mentionedWith:Data Science",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "Knowledge Graphs are powerful tools. Data Scie",
+      "start": 0,
+      "end": 16
+    }
+  },
+  {
+    "text": "Data Science mentionedWith The Company. ge Graphs are powerful tools. Data Science relates to analytics and insi",
+    "triple_key": "Data Science:mentionedWith:The Company",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "ge Graphs are powerful tools. Data Science relates to analytics and insi",
+      "start": 37,
+      "end": 49
+    }
+  },
+  {
+    "text": "The Company mentionedWith Cloud Infrastructure. es to analytics and insights. The Company builds enterprise software. C",
+    "triple_key": "The Company:mentionedWith:Cloud Infrastructure",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "es to analytics and insights. The Company builds enterprise software. C",
+      "start": 85,
+      "end": 96
+    }
+  },
+  {
+    "text": "Cloud Infrastructure mentionedWith Enterprise Solutions. y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+    "triple_key": "Cloud Infrastructure:mentionedWith:Enterprise Solutions",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+      "start": 125,
+      "end": 145
+    }
+  },
+  {
+    "text": "Enterprise Solutions mentionedWith Performance Optimization. re supports scalable systems. Enterprise Solutions has reliability requirements.",
+    "triple_key": "Enterprise Solutions:mentionedWith:Performance Optimization",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "re supports scalable systems. Enterprise Solutions has reliability requirements.",
+      "start": 173,
+      "end": 193
+    }
+  },
+  {
+    "text": "Performance Optimization mentionedWith Development Team. has reliability requirements. Performance Optimization is critical for success. Deve",
+    "triple_key": "Performance Optimization:mentionedWith:Development Team",
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "has reliability requirements. Performance Optimization is critical for success. Deve",
+      "start": 224,
+      "end": 248
+    }
+  },
+  {
+    "text": "The Framework has good documentation. Testing System creates reliable software. The Framework has good documentation.",
+    "triple_key": "The Framework:has:good documentation",
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. The Framework has good documentation.",
+      "start": 42,
+      "end": 78
+    }
+  },
+  {
+    "text": "Testing System mentionedWith The Framework. Testing System creates reliable software. Th",
+    "triple_key": "Testing System:mentionedWith:The Framework",
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. Th",
+      "start": 0,
+      "end": 14
+    }
+  },
+  {
+    "text": "Mobile Apps uses React Native. David creates Mobile Apps. Mobile Apps use React Native. The Development Team builds innovative solutions",
+    "triple_key": "Mobile Apps:uses:React Native",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Development Team builds innovative solutions",
+      "start": 27,
+      "end": 55
+    }
+  },
+  {
+    "text": "David creates Mobile Apps. David creates Mobile Apps. Mobile Apps use React Native. The Development Te",
+    "triple_key": "David:creates:Mobile Apps",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Development Te",
+      "start": 0,
+      "end": 25
+    }
+  },
+  {
+    "text": "Mobile Apps mentionedWith React Native. David creates Mobile Apps. Mobile Apps use React Native. The Develop",
+    "triple_key": "Mobile Apps:mentionedWith:React Native",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Develop",
+      "start": 27,
+      "end": 38
+    }
+  },
+  {
+    "text": "React Native mentionedWith The Development Team.  Mobile Apps. Mobile Apps use React Native. The Development Team builds ",
+    "triple_key": "React Native:mentionedWith:The Development Team",
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": " Mobile Apps. Mobile Apps use React Native. The Development Team builds ",
+      "start": 43,
+      "end": 55
+    }
+  },
+  {
+    "text": "The Iranian mentionedWith International Atomic Energy Agency. to deport about 400 Iranians. The Iranian flag waves in front of the In",
+    "triple_key": "The Iranian:mentionedWith:International Atomic Energy Agency",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "to deport about 400 Iranians. The Iranian flag waves in front of the In",
+      "start": 171,
+      "end": 182
+    }
+  },
+  {
+    "text": "Lisi Niesner mentionedWith An Iranian.  next one or two days' [File: Lisi Niesner/Reuters] An Iranian official ",
+    "triple_key": "Lisi Niesner:mentionedWith:An Iranian",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": " next one or two days' [File: Lisi Niesner/Reuters] An Iranian official ",
+      "start": 447,
+      "end": 459
+    }
+  },
+  {
+    "text": "An Iranian mentionedWith United States.  [File: Lisi Niesner/Reuters] An Iranian official says the United Stat",
+    "triple_key": "An Iranian:mentionedWith:United States",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": " [File: Lisi Niesner/Reuters] An Iranian official says the United Stat",
+      "start": 469,
+      "end": 479
+    }
+  },
+  {
+    "text": "President Donald Trump mentionedWith Hossein Noushabadi. ve in Iran within days, as US President Donald Trump continues his immigration cra",
+    "triple_key": "President Donald Trump:mentionedWith:Hossein Noushabadi",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "ve in Iran within days, as US President Donald Trump continues his immigration cra",
+      "start": 653,
+      "end": 675
+    }
+  },
+  {
+    "text": "Trump has set out to deport a record number of people living in the. or comment. Since returning to office in January, Trump has set out to deport a record number of people living in the US. However, his administration has struggled to ",
+    "triple_key": "Trump:has:set out to deport a record number of people living in the",
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "or comment. Since returning to office in January, Trump has set out to deport a record number of people living in the US. However, his administration has struggled to ",
+      "start": 912,
+      "end": 979
+    }
+  }
+]

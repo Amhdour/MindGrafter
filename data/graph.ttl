@@ -1,0 +1,100 @@
+@prefix pkg: <http://pkg.local/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+pkg:172522ec1028ab78 rdfs:label "David" ;
+    pkg:creates pkg:379bc082a946097e .
+
+pkg:53cae37a786c4c37 rdfs:label "Testing System" ;
+    pkg:mentionedWith pkg:aa6870bb092505b1 .
+
+pkg:5a1fb107dd7b9d5f rdfs:label "President Donald Trump" ;
+    pkg:mentionedWith pkg:e1c20dc28934f5d5 .
+
+pkg:5f591f95d7852af0 rdfs:label "Research Notes Bob" ;
+    pkg:isA pkg:eac39bc377f76c08 ;
+    pkg:mentionedWith pkg:e04d1bcee667afb8 .
+
+pkg:6384e2b2184bcbf5 rdfs:label "Alice" ;
+    pkg:worksOn pkg:46f86faa6bbf9ac9 .
+
+pkg:6ad5d29de368db3d rdfs:label "Trump" ;
+    pkg:has pkg:c19db8c1a3da093a .
+
+pkg:85b94be89ec4a7ad rdfs:label "Lisi Niesner" ;
+    pkg:mentionedWith pkg:7fca933cecc314d4 .
+
+pkg:8d5d217098946914 rdfs:label "The Iranian" ;
+    pkg:mentionedWith pkg:2d6f9389a453a3c1 .
+
+pkg:9f9d51bc70ef21ca rdfs:label "Bob" ;
+    pkg:worksOn pkg:e04d1bcee667afb8 .
+
+pkg:f6f91ccbadc6a052 rdfs:label "Knowledge Graphs" ;
+    pkg:mentionedWith pkg:b8f8119dc1290175 .
+
+pkg:0a6818634e534dcb rdfs:label "subset of artificial intelligence" .
+
+pkg:152649df347ee289 rdfs:label "United States" .
+
+pkg:2d6f9389a453a3c1 rdfs:label "International Atomic Energy Agency" .
+
+pkg:379bc082a946097e rdfs:label "Mobile Apps" ;
+    pkg:mentionedWith pkg:5ddf629cefc33a89 ;
+    pkg:uses pkg:5ddf629cefc33a89 .
+
+pkg:4006ffc28cc3bed6 rdfs:label "Innovation Lab" .
+
+pkg:46f86faa6bbf9ac9 rdfs:label "Project" .
+
+pkg:61a89095f3bded93 rdfs:label "reliability requirements" .
+
+pkg:6f4e34629143ae21 rdfs:label "The Development Team" .
+
+pkg:7c19187658a47ad3 rdfs:label "Neural Networks" ;
+    pkg:mentionedWith pkg:aec98fa16f9c89f0 .
+
+pkg:7fca933cecc314d4 rdfs:label "An Iranian" ;
+    pkg:mentionedWith pkg:152649df347ee289 .
+
+pkg:969a3e1e91cc7b33 rdfs:label "good documentation" .
+
+pkg:96ccf1f2a05456d1 rdfs:label "Cloud Infrastructure" ;
+    pkg:mentionedWith pkg:d41bb1b3f4c2be96 .
+
+pkg:a9689fb97fb0c96d rdfs:label "Performance Optimization" ;
+    pkg:mentionedWith pkg:f5a189450c6c7d3b .
+
+pkg:aa6870bb092505b1 rdfs:label "The Framework" ;
+    pkg:has pkg:969a3e1e91cc7b33 .
+
+pkg:aec98fa16f9c89f0 rdfs:label "The Research Team" ;
+    pkg:mentionedWith pkg:4006ffc28cc3bed6 .
+
+pkg:b8f8119dc1290175 rdfs:label "Data Science" ;
+    pkg:mentionedWith pkg:c8c98814fc994631 .
+
+pkg:c19db8c1a3da093a rdfs:label "set out to deport a record number of people living in the" .
+
+pkg:c8c98814fc994631 rdfs:label "The Company" ;
+    pkg:mentionedWith pkg:96ccf1f2a05456d1 .
+
+pkg:d41bb1b3f4c2be96 rdfs:label "Enterprise Solutions" ;
+    pkg:has pkg:61a89095f3bded93 ;
+    pkg:mentionedWith pkg:a9689fb97fb0c96d .
+
+pkg:de0fe23816b140b4 rdfs:label "Deep Learning" ;
+    pkg:isA pkg:0a6818634e534dcb ;
+    pkg:mentionedWith pkg:7c19187658a47ad3 .
+
+pkg:e1c20dc28934f5d5 rdfs:label "Hossein Noushabadi" .
+
+pkg:eac39bc377f76c08 rdfs:label "researcher" .
+
+pkg:f5a189450c6c7d3b rdfs:label "Development Team" .
+
+pkg:5ddf629cefc33a89 rdfs:label "React Native" ;
+    pkg:mentionedWith pkg:6f4e34629143ae21 .
+
+pkg:e04d1bcee667afb8 rdfs:label "Machine Learning" ;
+    pkg:mentionedWith pkg:de0fe23816b140b4 .
+

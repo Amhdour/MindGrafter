@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+rdflib
+numpy
+scikit-learn
+python-multipart
+httpx
+openai

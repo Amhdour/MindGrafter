@@ -1,0 +1,326 @@
+{
+  "6384e2b2184bcbf5:worksOn:46f86faa6bbf9ac9": {
+    "subject": "Alice",
+    "predicate": "worksOn",
+    "object": "Project",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "note1.txt",
+      "snippet": "Project X is a web application. Alice works on Project X. The system uses Python and FastAPI. Project X ",
+      "start": 32,
+      "end": 54
+    }
+  },
+  "5f591f95d7852af0:isA:eac39bc377f76c08": {
+    "subject": "Research Notes Bob",
+    "predicate": "isA",
+    "object": "researcher",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Lea",
+      "start": 2,
+      "end": 36
+    }
+  },
+  "de0fe23816b140b4:isA:0a6818634e534dcb": {
+    "subject": "Deep Learning",
+    "predicate": "isA",
+    "object": "subset of artificial intelligence",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "searcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial intelligence. Neural Networks are fundamental components. The ",
+      "start": 78,
+      "end": 130
+    }
+  },
+  "9f9d51bc70ef21ca:worksOn:e04d1bcee667afb8": {
+    "subject": "Bob",
+    "predicate": "worksOn",
+    "object": "Machine Learning",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works with Machine Learning models. Deep Learning is a subset of artificial i",
+      "start": 38,
+      "end": 69
+    }
+  },
+  "5f591f95d7852af0:mentionedWith:e04d1bcee667afb8": {
+    "subject": "Research Notes Bob",
+    "predicate": "mentionedWith",
+    "object": "Machine Learning",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "# Research Notes Bob is a researcher. Bob works wi",
+      "start": 2,
+      "end": 20
+    }
+  },
+  "e04d1bcee667afb8:mentionedWith:de0fe23816b140b4": {
+    "subject": "Machine Learning",
+    "predicate": "mentionedWith",
+    "object": "Deep Learning",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note2.md",
+      "snippet": " a researcher. Bob works with Machine Learning models. Deep Learning is a su",
+      "start": 53,
+      "end": 69
+    }
+  },
+  "de0fe23816b140b4:mentionedWith:7c19187658a47ad3": {
+    "subject": "Deep Learning",
+    "predicate": "mentionedWith",
+    "object": "Neural Networks",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "with Machine Learning models. Deep Learning is a subset of artificial int",
+      "start": 78,
+      "end": 91
+    }
+  },
+  "7c19187658a47ad3:mentionedWith:aec98fa16f9c89f0": {
+    "subject": "Neural Networks",
+    "predicate": "mentionedWith",
+    "object": "The Research Team",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "t of artificial intelligence. Neural Networks are fundamental components. T",
+      "start": 132,
+      "end": 147
+    }
+  },
+  "aec98fa16f9c89f0:mentionedWith:4006ffc28cc3bed6": {
+    "subject": "The Research Team",
+    "predicate": "mentionedWith",
+    "object": "Innovation Lab",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note2.md",
+      "snippet": "s are fundamental components. The Research Team develops new algorithms. Inno",
+      "start": 176,
+      "end": 193
+    }
+  },
+  "d41bb1b3f4c2be96:has:61a89095f3bded93": {
+    "subject": "Enterprise Solutions",
+    "predicate": "has",
+    "object": "reliability requirements",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": ". Cloud Infrastructure supports scalable systems. Enterprise Solutions has reliability requirements. Performance Optimization is critical for success",
+      "start": 173,
+      "end": 222
+    }
+  },
+  "f6f91ccbadc6a052:mentionedWith:b8f8119dc1290175": {
+    "subject": "Knowledge Graphs",
+    "predicate": "mentionedWith",
+    "object": "Data Science",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "Knowledge Graphs are powerful tools. Data Scie",
+      "start": 0,
+      "end": 16
+    }
+  },
+  "b8f8119dc1290175:mentionedWith:c8c98814fc994631": {
+    "subject": "Data Science",
+    "predicate": "mentionedWith",
+    "object": "The Company",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "ge Graphs are powerful tools. Data Science relates to analytics and insi",
+      "start": 37,
+      "end": 49
+    }
+  },
+  "c8c98814fc994631:mentionedWith:96ccf1f2a05456d1": {
+    "subject": "The Company",
+    "predicate": "mentionedWith",
+    "object": "Cloud Infrastructure",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "es to analytics and insights. The Company builds enterprise software. C",
+      "start": 85,
+      "end": 96
+    }
+  },
+  "96ccf1f2a05456d1:mentionedWith:d41bb1b3f4c2be96": {
+    "subject": "Cloud Infrastructure",
+    "predicate": "mentionedWith",
+    "object": "Enterprise Solutions",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "y builds enterprise software. Cloud Infrastructure supports scalable systems. En",
+      "start": 125,
+      "end": 145
+    }
+  },
+  "d41bb1b3f4c2be96:mentionedWith:a9689fb97fb0c96d": {
+    "subject": "Enterprise Solutions",
+    "predicate": "mentionedWith",
+    "object": "Performance Optimization",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "re supports scalable systems. Enterprise Solutions has reliability requirements.",
+      "start": 173,
+      "end": 193
+    }
+  },
+  "a9689fb97fb0c96d:mentionedWith:f5a189450c6c7d3b": {
+    "subject": "Performance Optimization",
+    "predicate": "mentionedWith",
+    "object": "Development Team",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "note3.txt",
+      "snippet": "has reliability requirements. Performance Optimization is critical for success. Deve",
+      "start": 224,
+      "end": 248
+    }
+  },
+  "aa6870bb092505b1:has:969a3e1e91cc7b33": {
+    "subject": "The Framework",
+    "predicate": "has",
+    "object": "good documentation",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. The Framework has good documentation.",
+      "start": 42,
+      "end": 78
+    }
+  },
+  "53cae37a786c4c37:mentionedWith:aa6870bb092505b1": {
+    "subject": "Testing System",
+    "predicate": "mentionedWith",
+    "object": "The Framework",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "test_note.txt",
+      "snippet": "Testing System creates reliable software. Th",
+      "start": 0,
+      "end": 14
+    }
+  },
+  "379bc082a946097e:uses:5ddf629cefc33a89": {
+    "subject": "Mobile Apps",
+    "predicate": "uses",
+    "object": "React Native",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Development Team builds innovative solutions",
+      "start": 27,
+      "end": 55
+    }
+  },
+  "172522ec1028ab78:creates:379bc082a946097e": {
+    "subject": "David",
+    "predicate": "creates",
+    "object": "Mobile Apps",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Development Te",
+      "start": 0,
+      "end": 25
+    }
+  },
+  "379bc082a946097e:mentionedWith:5ddf629cefc33a89": {
+    "subject": "Mobile Apps",
+    "predicate": "mentionedWith",
+    "object": "React Native",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": "David creates Mobile Apps. Mobile Apps use React Native. The Develop",
+      "start": 27,
+      "end": 38
+    }
+  },
+  "5ddf629cefc33a89:mentionedWith:6f4e34629143ae21": {
+    "subject": "React Native",
+    "predicate": "mentionedWith",
+    "object": "The Development Team",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "mobile_dev",
+      "snippet": " Mobile Apps. Mobile Apps use React Native. The Development Team builds ",
+      "start": 43,
+      "end": 55
+    }
+  },
+  "8d5d217098946914:mentionedWith:2d6f9389a453a3c1": {
+    "subject": "The Iranian",
+    "predicate": "mentionedWith",
+    "object": "International Atomic Energy Agency",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "to deport about 400 Iranians. The Iranian flag waves in front of the In",
+      "start": 171,
+      "end": 182
+    }
+  },
+  "85b94be89ec4a7ad:mentionedWith:7fca933cecc314d4": {
+    "subject": "Lisi Niesner",
+    "predicate": "mentionedWith",
+    "object": "An Iranian",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": " next one or two days' [File: Lisi Niesner/Reuters] An Iranian official ",
+      "start": 447,
+      "end": 459
+    }
+  },
+  "7fca933cecc314d4:mentionedWith:152649df347ee289": {
+    "subject": "An Iranian",
+    "predicate": "mentionedWith",
+    "object": "United States",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": " [File: Lisi Niesner/Reuters] An Iranian official says the United Stat",
+      "start": 469,
+      "end": 479
+    }
+  },
+  "5a1fb107dd7b9d5f:mentionedWith:e1c20dc28934f5d5": {
+    "subject": "President Donald Trump",
+    "predicate": "mentionedWith",
+    "object": "Hossein Noushabadi",
+    "confidence": 0.5,
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "ve in Iran within days, as US President Donald Trump continues his immigration cra",
+      "start": 653,
+      "end": 675
+    }
+  },
+  "6ad5d29de368db3d:has:c19db8c1a3da093a": {
+    "subject": "Trump",
+    "predicate": "has",
+    "object": "set out to deport a record number of people living in the",
+    "confidence": 0.8,
+    "provenance": {
+      "source": "pasted_text",
+      "snippet": "or comment. Since returning to office in January, Trump has set out to deport a record number of people living in the US. However, his administration has struggled to ",
+      "start": 912,
+      "end": 979
+    }
+  }
+}
